@@ -1,6 +1,4 @@
-body{
- background-image: url("./images/backgrp.jpg");
-}
+
 
 
 @font-face {
@@ -8,42 +6,53 @@ body{
     src: url(IndieFlower-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
+body{
+ background-image: url("./images/backgrp.jpg");
+    font-family: "Indie Flower";
+}
+
 
 h1{
-
-    font-size: 60px;
+font-weight: bold;
+    font-size: 75px;
     text-align: center;
     font-family: "Indie Flower";
     color: #f2ffef;
 }
 
+
+
 .sect2{
     text-align: center;
     font-family: "Indie Flower";
-   background-color: rgba(255, 255, 255, 0.53);
+    background-color: rgba(255, 255, 255, 0.53);
     height: 900px;
     width: 1700px;
     margin: 0px 10px 0px 100px;
 
 }
 
-.request input[type='text']{
+.inp{
+padding: 60px;
+}
+
+input[type='text']{
     font-family: "Indie Flower";
     background-color: rgba(255, 255, 255, 0.79);
     color: rgba(79, 114, 65, 0.67);
     border-color: #bde299;
-    font-size: 30px;
+    font-size: 35px;
     border-radius: 9px;
     height: 75px;
     width: 400px;
 }
 
-.request input[type='submit']{
+input[type='submit']{
     font-family: "Indie Flower";
     background-color: rgba(255, 255, 255, 0.79);
     color: rgba(97, 139, 81, 0.67);
     border-color: #bde299;
-    font-size: 30px;
+    font-size: 35px;
     border-radius: 9px;
     height: 75px;
     width: 200px;

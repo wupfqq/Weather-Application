@@ -16,9 +16,9 @@ buttn.addEventListener('click',function (){
         var windy = data['wind']['speed']
         var feelt=data['main']['feels_like']
 
-        cname.innerHTML=`City: ${countname}`
+        cname.innerHTML=`Your city: ${countname}`
         tmp.innerHTML = `Temperature: ${tempchange(tempar)} C`
-        description.innerHTML = `Conditions: ${descrip}`
+        description.innerHTML = `Weather conditions: ${descrip}`
         wind.innerHTML = `Wind Speed: ${windy} km/h`
         ftemp.innerHTML=`Feels like: ${tempchange(feelt)} C`
 
